@@ -1,6 +1,6 @@
 {
-    "name": "darry/try-make-package",
-    "description": "none - for debug",
+    "name": "dcdebug/try-make-package",
+    "description": "composer test",
     "authors": [
         {
             "name": "d.c",
@@ -9,12 +9,12 @@
     ],
     "minimum-stability": "dev",
     "require": {
-        "php": ">=7.0"
+      "php": ">=7.0"
     },
     "autoload": {
-        "psr-4": {
-            "Flower\\Rose\\": "src/Flower/Rose",
-            "Flower\\Lily\\": "src/Flower/Lily"
-        }
+      "psr-4": {
+        "Flower\\Rose\\": "src/Flower/Rose",
+        "Flower\\Lily\\": "src/Flower/Lily"
+      }
     }
 }
